@@ -1,0 +1,20 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#header-container{
+  background-color: #99c84a;
+  color: white;
+}
+
+#header-container .container-fluid{
+  border: 1px solid red;
+}
+
+.row{
+  border: 1px solid blue;
+}
+.columna{
+  border: 1px solid red;
+}
