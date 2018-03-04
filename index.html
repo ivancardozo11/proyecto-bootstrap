@@ -30,10 +30,8 @@
       </div>
     </header>
 <!-- /header -->
-
   <!-- menu -->
   <div id="menu-container">
-
 <!-- MENU DE NAVEGACION -->
 <nav id="navMenu" class=" navbar-toggleable-xs navbar navbar-light">
   <div class="container">
@@ -52,13 +50,10 @@
           <li class=" nav-item text-xs-center hidden-sm-up">
             <a href="#" class="nav-link">Login</a>
           </li>
-
         </ul>
       </div>
       <!-- BOTON DE BUSCADOR -->
-
       <div class="col-xs-12 col-md-6 offset-md-2 hidden-xs-down">
-
         <form >
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="¿Encontró lo que buscaba?">
@@ -72,9 +67,7 @@
         </form>
       </div>
       <!-- / BOTON DE BUSCADOR -->
-
     </div>
-
 </div>
 </nav>
 <!-- RESPONSIVO BARRA DE BUSCADOR -->
@@ -96,14 +89,124 @@
 </div>
 <!-- /RESPONSIVO BARRA DE BUSCADOR -->
 <!-- / DE NAVEGACION -->
-
   </div>
-
   <!-- /menu -->
-
+<!-- Carousel -->
+<div id="carousel-container">
+  <div id="productsCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#productsCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#productsCarousel" data-slide-to="1"></li>
+      <li data-target="#productsCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img src="images/1.svg" alt="First slide">
+        <div class="carousel-caption">
+          <h3>Primer producto</h3>
+          <p class="hidden-sm-down">con este producto podras: sdakfnkjdssnfknfkjwfew</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/2.svg" alt="Second slide">
+        <div class="carousel-caption">
+          <h3>Segundo producto</h3>
+          <p class="hidden-sm-down">Con este producto tempus id porta vel, blandit at ex. Mauris dignissim feugiat quam, vitae blandit metus auctor vitae. Maecenas ut varius ipsum, sed bibendum metus. In tristique a ante ac ornare</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.svg" alt="Third slide">
+        <div class="carousel-caption">
+          <h3>Tercer producto</h3>
+          <p class="hidden-sm-down">Con este producto podras hacer: dsjakfdksjhfkfe</p>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#productsCarousel" role="button" data-slide="prev">
+      <span class="icon-prev" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#productsCarousel" role="button" data-slide="next">
+      <span class="icon-next" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- /Carousel -->
+<!-- INFORMACION -->
+<div id="info-container"><!-- info-container -->
+  <div class="container"><!-- container -->
+    <div class="row  text-xs-center">    <!-- row -->
+      <!-- Calidad -->
+      <div class="col-xs-12 col-md-4">
+        <img src="images/Calidad.png" alt="Calidad" class="img-fluid">
+        <h4>Calidad</h4>
+      </div>
+      <!-- / Calidad -->
+      <!--   Envio -->
+      <div class="col-xs-12 col-md-4">
+        <img src="images/Envio.png" alt="Envio" class="img-fluid">
+        <h4>Envio Gratis </h4>
+      </div>
+    <!--   / Envio -->
+      <!--   Soporte -->
+      <div class="col-xs-12 col-md-4">
+        <img src="images/Soporte.png" alt="Soporte" class="img-fluid">
+        <h4>Soporte 24hs</h4>
+      </div>
+      <!--  / Soporte -->
+    </div><!-- /row -->
+  </div><!--/container -->
+</div><!-- / info-container -->
+<!--/  INFORMACION -->
+<!-- FOOTER -->
+<footer id="footer-container"><!-- footer -->
+  <div class="container">
+    <div class="row text-xs-center text-md-left"><!-- row -->
+      <div class="col-md-4">      <!-- div col md 4 -->
+        <form id="suscribeForm" action="#" method="post"><!-- form  suscribeForm -->
+          <div class="form-group"><!-- form-group -->
+              <h4 class="text-uppercase">¿Quierés recibir todas las novedades?</h4>
+              <input type="email" class="form-control" id="email" name="email" placeholder="tu@correo.com">
+              <small class="form-text text-muted">No compartiremos tu informacion con nadie más
+              </small>
+          </div><!--  / form-group -->
+          <button type="submit" class="btn btn-primary form-text">
+          Suscribirme</button>
+        </form>        <!--  / form  suscribeForm -->
+      </div>      <!-- /div col md 4 -->
+      <div class="col-md-3 offset-md-5">
+        <h4>Navegacion</h4>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Catalogo</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Carrito</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div><!--  / div col md 3 -->
+    </div><!--/ row -->
+  </div><!--  / div container -->
+</footer>
+<!-- / footer -->
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script><!-- VALIDACION DEL FORMULARIO -->
+
   </body>
 </html>
