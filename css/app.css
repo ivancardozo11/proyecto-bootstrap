@@ -2,9 +2,15 @@ body{
   font-family: 'Montserrat', sans-serif;
 
 }
+#header-container > div > div > div:nth-child(1) > h1 > a{
+  color: white;
+  text-decoration: none;
+}
+
+
 #header-container,
 #info-container{
-  background-color: #99c84a;
+  background-color:#3f9900;
   color: white;
 }
 
@@ -21,14 +27,14 @@ body{
   background-color: #f7f7f9;
 }
 .btn.btn-platzi{
-background-color: #99c84a;
+background-color:#3f9900;
 color: white;
 }
 .btn.btn-platzi:hover{
   background-color: #8ab542;
 }
 input.form-control:focus {
-  border-color: #99c84a;
+  border-color:#3f9900;
 }
 .e{
   text-transform: uppercase;
@@ -79,8 +85,8 @@ background-color: white;
   margin-bottom: 2em;
 }
 #filtros-container .list-group-item-action.active {
-background-color: #99c84a;
-border-color: #99c84a;
+background-color:#3f9900;
+border-color:#3f9900;
 }
 #filtros-container .list-group {
   margin-bottom: 1em;
@@ -100,10 +106,10 @@ margin-top: 1em;
 }
   }
   #paginator-container .page-item:not(.active):not(.disabled) .page-link {
-color: #99c84a;
+color:#3f9900;
   }
 #paginator-container .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover{
-  background-color: #99c84a;
-  border-color: #99c84a;
+  background-color:#3f9900;
+  border-color:#3f9900;
   color: white;
 }
