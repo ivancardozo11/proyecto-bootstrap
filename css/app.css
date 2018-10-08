@@ -2,6 +2,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 
 }
+
+.ce{
+  padding-left: 19%;
+}
+
+
 #header-container > div > div > div:nth-child(1) > h1 > a{
   color: white;
   text-decoration: none;
@@ -112,4 +118,26 @@ color:#3f9900;
   background-color:#3f9900;
   border-color:#3f9900;
   color: white;
+}
+
+@media (min-width:992px){
+  #info-container > div > div > div:nth-child(2) > img{
+    height: 66.2%;
+  }
+  #info-container > div > div > div:nth-child(3) > img{
+        height: 67%;
+  }
+}
+@media (max-width:992px) and (min-width:768px){
+  #info-container > div > div > div:nth-child(2) > img{
+    height: 48.2%;
+
+  }
+  #info-container > div > div > div:nth-child(3) > img{
+        height: 49%;
+  }
+
+  #info-container > div{
+    height: 40vw;
+  }
 }
