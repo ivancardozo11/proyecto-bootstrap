@@ -10,6 +10,46 @@
     <link rel="stylesheet" href="css/bootstrap-flexmin.css">
     <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <style media="screen">
+    .white{
+  color:#000;
+  background-color:#fff;
+}
+
+.btn-facebook {
+  color: #ffffff;
+  -webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2b4b90;
+  *background-color: #133783;
+  background-image: -moz-linear-gradient(top, #3b5998, #133783);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#133783));
+  background-image: -webkit-linear-gradient(top, #3b5998, #133783);
+  background-image: -o-linear-gradient(top, #3b5998, #133783);
+  background-image: linear-gradient(to bottom, #3b5998, #133783);
+  background-repeat: repeat-x;
+  border-color: #133783 #133783 #091b40;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+  .btn-facebook:hover,
+  .btn-facebook:focus,
+  .btn-facebook:active,
+  .btn-facebook.active,
+  .btn-facebook.disabled,
+  .btn-facebook[disabled] {
+      color: #ffffff;
+      background-color: #133783 !important;
+      *background-color: #102e6d !important;
+  }
+
+  .btn-facebook:active,
+  .btn-facebook.active {
+      background-color: #0d2456 \9 !important;
+  }
+    </style>
   </head>
   <body>
     <!-- header -->
@@ -18,7 +58,7 @@
         <div class="row flex-items-xs-middle flex-items-xs-between">
           <div class="col-xs-3">
             <h1>
-              <a href="/index.html">DogShop</h1></a>
+              <a href="index.html">DogShop</h1></a>
           </div>
           <div class="col-xs-3 text-xs-right">
             <button class="navbar-toggler pull-xs-right hidden-sm-up" data-toggle="collapse"
@@ -49,7 +89,7 @@
             <a href="carrito.html" class="nav-link">Carrito</a>
           </li>
           <li class=" nav-item text-xs-center hidden-sm-up">
-            <a href="login.html" class="nav-link">Login</a>
+            <a href="#" class="nav-link">Login</a>
           </li>
         </ul>
       </div>
@@ -77,20 +117,6 @@
     </div>
 </div>
 
-
-<section id="breadcrumbs-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs cs">
-        <nav class="breadcrumb">
-          <a href="carrito.html" class="breadcrumb-item active">Carrito</a>
-          <span class="breadcrumb-item ">Finalizar pedido</span>
-        </nav>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- RESPONSIVO BARRA DE BUSCADOR -->
 <div  id="search-bar"class="container hidden-sm-up">
 <div class="row">
@@ -114,76 +140,41 @@
   <!-- /menu -->
 
 
-<!-- shopping section -->
-
-<div class="container"></div>
-    <div class="card">
-            <div class="card-header bg-dark text-light">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                Carrito de compras
-                <a href="{{route("product.home")}}" class="btn btn-outline-info btn-sm pull-right">ver productos</a>
-                <div class="clearfix"></div>
-            </div>
-            <div class="card-body">
-
-                <div class="row">
-                    <div class="col-xs-2 col-md-2">
-                        <img class="img-responsive" src="./images/7.png" alt="prewiew">
-                    </div>
-                    <div class="col-xs-4 col-md-6">
-                        <h4 class="product-name"><strong>Ultra Ball</strong></h4><h4><small>Description</small></h4>
-                    </div>
-                    <div class="col-xs-6 col-md-4 row">
-                        <div class="col-xs-6 col-md-6 text-right" style="padding-top: 5px">
-                            <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
-                        </div>
-                        <div class="col-xs-4 col-md-4">
-                            <input type="text" class="form-control input-sm" value="1">
-                        </div>
-                        <div class="col-xs-2 col-md-2">
-                            <button type="button" class="btn btn-outline-danger btn-xs">
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-xs-2 col-md-2">
-                        <img class="img-responsive" src="./images/10.png" alt="prewiew">
-                    </div>
-                    <div class="col-xs-4 col-md-6">
-                        <h4 class="product-name"><strong>Launcher Sport</strong></h4><h4><small>Description</small></h4>
-                    </div>
-                    <div class="col-xs-6 col-md-4 row">
-                        <div class="col-xs-6 col-md-6 text-right" style="padding-top: 5px">
-                            <h6><strong>25.00 <span class="text-muted">x</span></strong></h6>
-                        </div>
-                        <div class="col-xs-4 col-md-4">
-                            <input type="text" class="form-control input-sm" value="1">
-                        </div>
-                        <div class="col-xs-2 col-md-2">
-                            <button type="button" class="btn btn-outline-danger btn-xs">
-                                <i class="fa fa-trash" aria-hidden="true"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                <div class="pull-right">
-                    <a href="{{route("product.home")}}" class="btn btn-outline-secondary pull-right">Actualizar Carrito</a>
-                </div>
-            </div>
-            <div class="card-footer">
-                <a href="{{route("product.home")}}" class="btn btn-success pull-right">Comprar</a>
-                <div class="pull-right" style="margin: 5px">
-                   Precio total :<b>50.00€</b>
-                </div>
-            </div>
-        </div>
+<!-- LOGIN  section -->
+<div class="container">
+    <div class="row">
+    	<div class="col-md-4 col-md-offset-4">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Login via site</h3>
+			 	</div>
+			  	<div class="panel-body">
+			    	<form accept-charset="UTF-8" role="form">
+                    <fieldset>
+			    	  	<div class="form-group">
+			    		    <input class="form-control" placeholder="yourmail@example.com" name="email" type="text">
+			    		</div>
+			    		<div class="form-group">
+			    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+			    		</div>
+			    		<div class="checkbox">
+			    	    	<label>
+			    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+			    	    	</label>
+			    	    </div>
+			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+			    	</fieldset>
+			      	</form>
+                      <hr/>
+                    <center><h4>OR</h4></center>
+                    <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Login via facebook">
+			    </div>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- /shopping section -->
+
+<!-- /LOGIN  section -->
 
 
 
@@ -237,6 +228,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js" integrity="sha384-ux8v3A6CPtOTqOzMKiuo3d/DomGaaClxFYdCu2HPMBEkf6x2xiDyJ7gkXU0MWwaD" crossorigin="anonymous"></script>
     <script src="js/app.js"></script><!-- VALIDACION DEL FORMULARIO -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
   </body>
 </html>
