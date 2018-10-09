@@ -271,3 +271,46 @@ height: 113px;
 }
 }
 /* / Mobile */
+
+/* mini screen */
+@media (max-width:428px) {
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-4.col-md-6,
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-4.col-md-6{
+    margin-left: 13%;
+    display: grid;
+
+}
+body > div.card > div.card-body {
+    height: 134vw;
+}
+
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-4.col-md-6 > h4.product-name,
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-4.col-md-6 > h4.product-name{
+      width: 48vw;
+}
+
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-6.col-md-4.row,
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-6.col-md-4.row{
+  display: grid;
+    margin-left: 42vw;
+}
+
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-6.col-md-4.row > div.col-xs-4.col-md-4,
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-6.col-md-4.row > div.col-xs-4.col-md-4{
+  max-width: 47vw;
+}
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-6.col-md-4.row > div.col-xs-2.col-md-2 > button,
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-6.col-md-4.row > div.col-xs-2.col-md-2 > button{
+  width: 40vw;
+}
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-6.col-md-4.row > div.col-xs-4.col-md-4 > input,
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-6.col-md-4.row > div.col-xs-4.col-md-4 > input{
+  text-align: center;
+}
+
+body > div.card > div.card-body > div:nth-child(1) > div.col-xs-6.col-md-4.row > div.col-xs-6.col-md-6.text-right,
+body > div.card > div.card-body > div:nth-child(3) > div.col-xs-6.col-md-4.row > div.col-xs-6.col-md-6.text-right{
+      margin-left: 31%;
+}
+}
+/* mini screen */
